@@ -5,7 +5,7 @@ name: Release 'form-field-config' package to npm registry
 
 on:
   push:
-    branches: [ ci ]
+    branches: [ main ]
     paths:
       - 'packages/form-field-config/**'
 

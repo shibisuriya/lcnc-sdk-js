@@ -5,7 +5,7 @@ name: Release 'create-component' package to npm registry
 
 on:
   push:
-    branches: [ ci ]
+    branches: [ main ]
     paths:
       - 'packages/create-component/**'
 
