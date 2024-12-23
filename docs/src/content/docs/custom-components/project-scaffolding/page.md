@@ -1,27 +1,9 @@
 ---
-title: Project scaffolding
-description: A guide to scaffold a custom component project
+title: Page
+description: A guide to scaffolding a page custom component
 sidebar:
   order: 2
 ---
-
-# Prerequisites
-
-- Nodejs (Ask Shibi later)
-
-- npm
-
-## There are two types of custom component project in Kissflow currently.
-
-1. Page custom component
-
-2. Form field custom component
-
-Both types of projects can be scaffolded using 'create-kf-component'.
-
-:::note[What is a scaffolder?]
-A 'scaffolder' is a CLI tool to create a barebone project.
-:::
 
 In terminal type,
 
@@ -84,26 +66,4 @@ If you don't want to install the sdk, you can also use it from a cdn,
 
 ```html
 <script src="https://unpkg.com/@kissflow/lowcode-client-sdk@latest/dist/kfsdk.umd.js"></script>
-```
-
-## Selecting Form field
-
-It will create a barebone form field project.
-
-To installation npm packages,
-
-```bash
-npm i
-```
-
-To run the project for development purposes,
-
-```bash
-npm run dev
-```
-
-To build the project for distrubtion (creates a .zip that can be uploaded to Kissflow),
-
-```bash
-npm run zip
 ```
