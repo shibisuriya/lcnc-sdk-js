@@ -23,36 +23,12 @@ export default defineConfig({
           link: "/",
         },
         {
-          label: "Introduction",
-          link: "/introduction",
-        },
-        {
-          label: "Utilities",
-          link: "/utils",
-        },
-        {
-          label: "Context",
-          link: "/context",
-        },
-        {
-          label: "Form",
-          autogenerate: { directory: "form" },
-        },
-        {
-          label: "Application",
-          autogenerate: { directory: "app" },
+          label: "sdk",
+          autogenerate: { directory: "sdk" },
         },
         {
           label: "Custom Components",
           autogenerate: { directory: "custom-components" },
-        },
-        {
-          label: "Formatter",
-          link: "/formatter",
-        },
-        {
-          label: "Integration",
-          link: "/integration",
         },
       ],
       components: {
