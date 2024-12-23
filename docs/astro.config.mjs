@@ -23,8 +23,8 @@ export default defineConfig({
           link: "/",
         },
         {
-          label: "Installation",
-          link: "/installation",
+          label: "Introduction",
+          link: "/introduction",
         },
         {
           label: "Utilities",
@@ -43,8 +43,8 @@ export default defineConfig({
           autogenerate: { directory: "app" },
         },
         {
-          label: "Custom Component",
-          link: "/component",
+          label: "Custom Components",
+          autogenerate: { directory: "custom-components" },
         },
         {
           label: "Formatter",
